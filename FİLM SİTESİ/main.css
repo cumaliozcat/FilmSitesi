@@ -1,0 +1,191 @@
+/*! base css start */
+
+@import url("https://fonts.googleapis.com/css2?family=Electrolize&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+* {
+  margin: 0;
+}
+/*! base css end */
+body {
+  height: 100vh;
+  max-width: 100%;
+  font-family: "Electrolize", sans-serif;
+  background-color: #000;
+
+}
+.navbar {
+  background-color: #000;
+  height: 60px;
+  color: white;
+  position: sticky;
+  top: 0;
+}
+.navbar-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0 50px;
+}
+.menu-list {
+  display: flex;
+  list-style: none;
+  column-gap: 30px;
+}
+.menu-list-item {
+  cursor: pointer;
+}
+.profile-container {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+.menu-list-item:hover {
+  font-weight: bold;
+}
+.logo-wrapper {
+  font-size: 30px;
+  color: red;
+  font-style: inherit;
+}
+.sidebar {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  row-gap: 40px;
+  align-items: center;
+
+}
+.profilefoto {
+  height: 30px;
+  font-weight: 30px;
+  border-radius: 50%;
+}
+.toggle {
+  width: 40px;
+  height: 20px;
+  background-color: white;
+  position: relative;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.toggle-icon {
+  color: goldenrod;
+}
+.toggle-ball {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #000;
+  position: absolute;
+  right: 1px;
+}
+.profile-container:hover {
+  font-weight: bold;
+  cursor: grab;
+}
+.side-icon{
+  color: white;
+  cursor: pointer;
+
+}
+.sidebar:hover{
+  font-weight: bold;
+  color: aqua;
+  
+}
+.featured-title{
+  width: 100%;
+  height: 100%;
+}
+.container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.content-wrapper {
+  background-image: url("img/spiderman.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover; 
+  background-position: center; 
+  padding-left: 30px;
+  /* padding: 80px 50px 0 50px; */
+}
+
+.content-wrapper-box{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 50%;
+}
+.featured-desc{
+  background-color: rgba(190, 187, 187, 0.4);
+  padding: 8px;
+  margin: 16px 0 16px 0;
+}
+.content-wrapper > img{
+  width: 100px;
+  height: 100px;
+}
+.featured-buttons>button{
+  padding:8px 14px 8px 14px ;
+  border: none;
+
+}
+.play-circle-iconn{
+  background-color: white;
+  
+}
+.info-circle-icon{
+  color: white;
+  background-color: rgba(67, 66, 66, 0.4);
+}
+#category{
+  color:white;
+  background-color: black;
+  padding: 2px 30px 2px 2px;
+}
+.img-list{
+  margin:30px 0 10px 50px;
+
+}
+.img-list>ul{
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  list-style-type: none;
+  margin: 0;
+  margin-top: 30px;
+  overflow: hidden;
+  position: relative;
+}
+.img-list>ul>li{
+  margin: 0;
+}
+.arrowSvg{
+  position: absolute;
+  left: 50px;
+  margin-top: 90px;
+}
+.arrowSvgRight{
+  position: absolute;
+  margin-top: 90px;
+  right: 50px;
+}
+.img-list>ul>li>img{
+  width: 200px;
+  height: 200px;
+  transition: all 1s;
+}
+.img-list>ul>li>img:hover{
+  width: 300px;
+  height: 300px;
+}

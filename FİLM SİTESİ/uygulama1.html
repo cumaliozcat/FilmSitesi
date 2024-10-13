@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Film Sitesi</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <!-- Header başlangıç -->
+    <div class="navbar">
+      <div class="navbar-wrapper">
+        <div class="logo-wrapper">
+          <h1>LOGO</h1>
+        </div>
+        <div class="menu-container">
+          <ul class="menu-list">
+            <li class="menu-list-item">Ana Sayfa</li>
+            <li class="menu-list-item">Film</li>
+            <li class="menu-list-item">Dizi</li>
+            <li class="menu-list-item">Listem</li>
+            <li class="menu-list-item">Popüler</li>
+            <li class="menu-list-item">Bana Özel</li>
+          </ul>
+        </div>
+        <div class="profile-container">
+          <img src="img/BEN.jpg" alt="" class="profilefoto" />
+          <div class="profile-text-container">
+            <span class="profile-text">Hesabım</span>
+            <i class="bi bi-caret-down-fill"></i>
+          </div>
+          <div class="toggle">
+            <i class="bi bi-moon toggle-icon icon1"></i>
+            <i class="bi bi-brightness-high-fill toggle-icon"></i>
+            <div class="toggle-ball"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- container başlangıç  -->
+    <div class="container">
+      <div class="sidebar">
+        <i class="bi bi-search side-icon"></i>
+        <i class="bi bi-house-fill side-icon"></i>
+        <i class="bi bi-people-fill side-icon"></i>
+        <i class="bi bi-bookmark-fill side-icon"></i>
+        <i class="bi bi-floppy-fill side-icon"></i>
+        <i class="bi bi-gear-fill side-icon"></i>
+      </div>
+      <div class="content-wrapper">
+        <div class="content-wrapper-box">
+          <img src="./img/spiderman-title.png" />
+          <p class="featured-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas vel
+            est excepturi, consectetur ex, ut dignissimos eaque iusto
+            voluptatibus distinctio tempora reprehenderit consequuntur, quo
+            ipsum laboriosam odio. Modi, similique mollitia!
+          </p>
+          <div class="featured-buttons">
+            <button class="play-circle-icon">
+              <i class="bi bi-play-circle"></i> Oynat
+            </button>
+            <button class="info-circle-icon">
+              <i class="bi bi-info-circle"></i> Daha Fazla Bilgi
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="img-list">
+      <select id="category" name="category">
+        <option value="belgesel">Belgesel</option>
+        <option value="film">Film</option>
+        <option value="dizi">Dizi</option>
+        <option value="spor">Spor</option>
+      </select>
+      <h3 style="color: white">Popüler</h3>
+      <ul>
+        <svg  xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-chevron-right arrowSvg" viewBox="0 0 16 16">
+          <path fill-rule="white" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+        </svg>
+
+        <li><img src="./img/f1.jpg" alt="" /></li>
+        <li><img src="./img/f2.jpg" alt="" /></li>
+        <li>
+          <img src="./img/f3.jpg" alt="" />
+        </li>
+        <li><img src="./img/f4.jpg" alt="" /></li>
+        <li><img src="./img/f5.jpg" alt="" /></li>
+        <li><img src="./img/f6.jpg" alt="" /></li>
+        <svg  xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-chevron-right arrowSvgRight" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+        </svg>
+       
+      </ul>
+      <h3 style="color: white">Gündemdekiler</h3>
+      <ul>
+        <svg  xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-chevron-right arrowSvg" viewBox="0 0 16 16">
+          <path fill-rule="white" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+        </svg>
+        <li><img src="./img/f2.jpg" alt="" /></li>
+        <li>
+          <img src="./img/f3.jpg" alt="" />
+        </li>
+        <li><img src="./img/f6.jpg" alt="" /></li>
+       
+        <li><img src="./img/f1.jpg" alt="" /></li>
+        <li><img src="./img/f4.jpg" alt="" /></li>
+        <li><img src="./img/f5.jpg" alt="" /></li>
+        <svg  xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-chevron-right arrowSvgRight" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+        </svg>
+      </ul>
+    </div>
+  </body>
+</html>
